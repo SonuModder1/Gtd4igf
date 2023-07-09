@@ -9,7 +9,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 const html = `
 <?php
-require 'https://github.com/SonuModder1/Gtd4igf/blob/main/config/config.php';
+require 'Gtd4igf/blob/main/config/config.php';
 $dataName = ($zone == 'EU') ? (($lang == 'FR') ? "Octets" : "Bytes") : 'Bits';
 $requestLang = ($lang == 'FR') ? 'Requetes' : 'Requests';
 $perSecondLang = ($lang == 'FR') ? 'par seconde' : 'per second';
@@ -18,7 +18,7 @@ $perSecondLang = ($lang == 'FR') ? 'par seconde' : 'per second';
 
 <html>
 <head>
-    <?php error_log(" \r\n", 3, 'https://github.com/SonuModder1/Gtd4igf/blob/main/data/layer7-logs'); ?>
+    <?php error_log(" \r\n", 3, 'Gtd4igf/blob/main/data/layer7-logs'); ?>
 </head>
 <body>
 <div id="layer7"></div>
